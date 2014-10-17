@@ -7156,7 +7156,7 @@ footer .hh a:hover {
 }
 .testimonial .container {
   text-align: center;
-  padding: 0px 100px;
+  padding: 0px 30px;
 }
 .testimonial .container i.quote {
   background: url(/assets/img/quote.png) center center no-repeat;
@@ -7169,8 +7169,8 @@ footer .hh a:hover {
 .testimonial .container h3 {
   color: #669fc1;
   font-weight: 100;
-  font-size: 1.4em;
-  line-height: 1.4em;
+  font-size: 1.2em;
+  line-height: 1.3em;
 }
 .testimonial .container h3.sign {
   text-align: right;
@@ -7190,9 +7190,9 @@ footer .hh a:hover {
   padding: 100px 20px;
 }
 .special .container img.newblinds {
-  width: 300px;
-  height: 300px;
-  border-radius: 150px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
   display: block;
   margin: 10px auto;
   padding: 5px;
@@ -7218,11 +7218,11 @@ footer .hh a:hover {
   list-style-position: outside;
   list-style: none;
   padding: 0px;
-  margin: 10px -10px 0px 30px;
+  margin: 0px -10px 0px 30px;
 }
 .special .container ul li {
   color: white;
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-weight: 300;
 }
 .special .container ul li:before {
@@ -7334,6 +7334,7 @@ footer .hh a:hover {
   line-height: 1.4em;
   margin-bottom: 5px;
   font-weight: 300;
+  font-size: 1.0em;
 }
 .services .container .service ul li:before {
   padding: 0px;
@@ -7379,8 +7380,16 @@ footer .hh a:hover {
   .special .container .button {
     text-align: right;
   }
+  .special .container img.newblinds {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+  }
   .services .container .service {
     margin: 0px;
+  }
+  .services .container .service ul li {
+    font-size: 1.0em;
   }
   .family {
     text-align: left;
