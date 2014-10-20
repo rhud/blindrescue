@@ -6685,6 +6685,16 @@ body hr {
   width: 100% !important;
   max-width: 100%;
 }
+.page-content .new img {
+  width: 100%;
+  height: auto;
+}
+.page-content .new h3 {
+  margin: 20px 0px 10px;
+}
+.page-content .new p {
+  margin: 0px 0px 20px;
+}
 .family {
   background: white;
   text-align: center;
