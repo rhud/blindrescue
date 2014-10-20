@@ -6541,6 +6541,12 @@ body h2,
 body h3 {
   font-weight: 100;
 }
+body h2 {
+  margin: 20px 0px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #669fc1;
+}
 body a {
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
