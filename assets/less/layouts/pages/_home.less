@@ -32,6 +32,56 @@
 			width: 75px;
 			background-size: 75px 75px;
 		}
+		.carousel-fade {
+		  .carousel-inner {
+		    .item {
+		      opacity: 0;
+		      transition-property: opacity;
+		    }
+		
+		    .active {
+		      opacity: 1;
+		    }
+		
+		    .active.left,
+		    .active.right {
+		      left: 0;
+		      opacity: 0;
+		      z-index: 1;
+		    }
+		
+		    .next.left,
+		    .prev.right {
+		      opacity: 1;
+		    }
+		  }
+		
+		  .carousel-control {
+		    z-index: 2;
+		    background: none;
+		  }
+		}
+		
+		
+		
+		html, 
+		body, 
+		.carousel, 
+		.carousel-inner, 
+		.carousel-inner .item {
+		  height: 100%;
+		}
+		
+		#carousel {
+			height: 350px;
+		}
+		.carousel-indicators li {
+			border-color: @blue + #999;
+			&.active {
+				background: @blue + #999;
+				border-color: white;
+			}
+		}
 		h3 {
 			color: @blue + #666;
 			font-weight: 100;
@@ -215,6 +265,14 @@
 	}
 }
 
+.testimonial {
+	.container {
+		#carousel {
+			height: 250px;
+		}	
+	}
+}
+
 .services {
 	
 	.container {
@@ -286,6 +344,9 @@
 			&.sign {
 				
 			}
+		}
+		#carousel {
+			height: 350px;
 		}
 	}
 }
@@ -397,6 +458,14 @@
 			}
 			
 		}
+	}
+}
+
+.testimonial {
+	.container {
+		#carousel {
+			height: 300px;
+		}	
 	}
 }
 

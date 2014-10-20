@@ -7166,6 +7166,46 @@ footer .hh a:hover {
   -webkit-background-size: 75px 75px;
           background-size: 75px 75px;
 }
+.testimonial .container .carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+       -o-transition-property: opacity;
+          transition-property: opacity;
+}
+.testimonial .container .carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.testimonial .container .carousel-fade .carousel-inner .active.left,
+.testimonial .container .carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.testimonial .container .carousel-fade .carousel-inner .next.left,
+.testimonial .container .carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.testimonial .container .carousel-fade .carousel-control {
+  z-index: 2;
+  background: none;
+}
+.testimonial .container html,
+.testimonial .container body,
+.testimonial .container .carousel,
+.testimonial .container .carousel-inner,
+.testimonial .container .carousel-inner .item {
+  height: 100%;
+}
+.testimonial .container #carousel {
+  height: 350px;
+}
+.testimonial .container .carousel-indicators li {
+  border-color: #99d2f4;
+}
+.testimonial .container .carousel-indicators li.active {
+  background: #99d2f4;
+  border-color: white;
+}
 .testimonial .container h3 {
   color: #669fc1;
   font-weight: 100;
@@ -7354,6 +7394,9 @@ footer .hh a:hover {
     padding: 8px 12px;
     margin: 3px 0px;
   }
+  .testimonial .container #carousel {
+    height: 250px;
+  }
 }
 @media (min-width: 992px) {
   #slider .heromsg {
@@ -7377,6 +7420,9 @@ footer .hh a:hover {
     line-height: 1.3em;
     font-size: 1.6em;
   }
+  .testimonial .container #carousel {
+    height: 350px;
+  }
   .special .container .button {
     text-align: right;
   }
@@ -7397,6 +7443,11 @@ footer .hh a:hover {
   }
   .family h1 {
     font-size: 2.4em;
+  }
+}
+@media (min-width: 1200px) {
+  .testimonial .container #carousel {
+    height: 300px;
   }
 }
 /*# sourceMappingURL=main.css.map */

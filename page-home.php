@@ -21,10 +21,10 @@ Template Name: Home Page
 			</div>
 		</div>
 		<div>
-			<img src="/assets/img/hero/office.jpg" alt="img04"/>
+			<img src="/assets/img/hero/curtains.jpg" alt="img04"/>
 			<div class="heromsg">
-				<h1>We provide cleaning services for</h1> <br />
-				<h1>businesses and rental properties.</h1>
+				<h1>We provide curtain cleaning services</h1> <br />
+				<h1>to bring your cutains back to life.</h1>
 			</div>
 		</div>
 		<div>
@@ -47,12 +47,46 @@ Template Name: Home Page
 <div class="wrap testimonial">
 	<div class="container">
 		<i class="quote"></i>
-		<h3>
-			"We were extremely happy with the fast, efficient and professional service that Andrew provided. We had been trying to treat our mould problem unsuccessfully with different methods for 3 years. It always came back and was slowly spreading to the other end of the house. We had Andrew treat it as soon as we heard of the service and have recommended him to friends."
-		</h3>
-		<h3 class="sign">
-			- Bliss & John
-		</h3>
+		<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel" data-slide-to="1"></li>
+		    <li data-target="#carousel" data-slide-to="2"></li>
+		  </ol>
+		  <!-- Carousel items -->
+		  <div class="carousel-inner">
+		    <div class="active item">
+		    	<h3>
+		    		"We were extremely happy with the fast, efficient and professional service that Andrew provided. We had been trying to treat our mould problem unsuccessfully with different methods for 3 years. It always came back and was slowly spreading to the other end of the house. We had Andrew treat it as soon as we heard of the service and have recommended him to friends."
+		    	</h3>
+		    	<h3 class="sign">
+		    		- Bliss & John
+		    	</h3>
+		    </div>
+		    <div class="item">
+		    	<h3>
+		    		Thanks Andrew for your friendly, fast and quality work on repairing and cleaning our blinds. An absolute pleasure doing business with you. Blindrescue came highly recommended to us and we'll now be passing on the good word! 
+		    	</h3>
+		    	<h3 class="sign">- Brendon Walmsley</h3>
+		    </div>
+		    <div class="item">
+		    	<h3>
+		    		We needed a repair to one of our vertical blinds so we called Blind Rescue, Andrew McDonald answered our call and very promptly came and fixed it,
+		    		we were so pleased with the job that he did we decided to order 2 new vertical blinds for a bedroom. Andrew also helped us to decide the right colour
+		    		 that would blend in with our new paintwork, when the new blinds arrived they were a perfect match. Andrew arrived on time to install them so we were
+		    		extremely satisfied with the job he did and the price was very reasonable so we would recommend his business Blind Rescue to anyone.
+		    	</h3>
+		    	<h3 class="sign">- Marilyn &amp; Christine Wilkie </h3>
+		    </div>
+		  </div>
+		  <!-- Carousel nav -->
+		  <a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
+		  <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
+		</div>
+		
+		
+		
+		
 	</div>
 </div>
 
@@ -100,24 +134,26 @@ Template Name: Home Page
 		<div class="col-md-3">
 			<div class="service">
 				<div class="service-img"><img src="/assets/img/service.blinds.jpg" alt="" /></div>
-				<h3>BLIND CLEANING</h3>
+				<h3>NEW BLINDS &amp; INSTALLATION</h3>
 				<ul>
-					<li class="icon-ok">Cleaning of all types of blinds including Outdoor, Roman, Holland, Venetian, Wooden & Vertical</li>
-					<li class="icon-ok">We also supply & fit new blinds!</li>
+					<li class="icon-ok">We supply &amp; install all styles of blinds including outdoor, roman, holland, venetian, wooden, panel glide, roller & Vertical</li>
+					<li class="icon-ok">We also offer complience consultation for existing blinds.</li>
 				</ul>
-				<a href="/blind-cleaning/" class="btn btn-primary btn-sm" role="button">Read More <i class="icon-right"></i></a>
+				<a href="/new-blinds/" class="btn btn-primary btn-sm" role="button">Read More <i class="icon-right"></i></a>
 			</div>
 		</div>
+		
 		<div class="col-md-3">
 			<div class="service">
-				<div class="service-img"><img src="/assets/img/service.repair.jpg" alt="" /></div>
-				<h3>BLIND REPAIRS</h3>
+				<div class="service-img"><img src="/assets/img/service.blinds.jpg" alt="" /></div>
+				<h3>BLIND CLEANING &amp; REPAIRS</h3>
 				<ul>
-					<li class="icon-ok">Repair all types of blinds</li>
+					<li class="icon-ok">We offer cleaning &amp; repairs of all types of blinds</li>
 					<li class="icon-ok">Supply replacement parts</li>
 					<li class="icon-ok">We come to you</li>
+					
 				</ul>
-				<a href="/blind-repairs/" class="btn btn-primary btn-sm" role="button">Read More <i class="icon-right"></i></a>
+				<a href="/blind-cleaning/" class="btn btn-primary btn-sm" role="button">Read More <i class="icon-right"></i></a>
 			</div>
 		</div>
 		<div class="col-md-3">
@@ -125,7 +161,7 @@ Template Name: Home Page
 				<div class="service-img"><img src="/assets/img/service.mould.jpg" alt="" /></div>
 				<h3>MOULD REMOVAL</h3>
 				<ul>
-					<li class="icon-ok">Treat mould &amp; spores</li>
+					<li class="icon-ok">Treat mould &amp; spores with the latest &amp; safest technology</li>
 					<li class="icon-ok">Help with allergys</li>
 				</ul>
 				<a href="mould-removal/" class="btn btn-primary btn-sm" role="button">Read More <i class="icon-right"></i></a>
