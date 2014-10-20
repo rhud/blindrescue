@@ -6647,6 +6647,9 @@ body hr {
   font-size: 1.0em;
   font-weight: 300;
 }
+.page-content blockquote h2 {
+  margin: 20px;
+}
 .page-content .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
