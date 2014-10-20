@@ -145,7 +145,7 @@ Template Name: Home Page
 		
 		<div class="col-md-3">
 			<div class="service">
-				<div class="service-img"><img src="/assets/img/service.blinds.jpg" alt="" /></div>
+				<div class="service-img"><img src="/assets/img/service.clean.jpg" alt="" /></div>
 				<h3>BLIND CLEANING &amp; REPAIRS</h3>
 				<ul>
 					<li class="icon-ok">We offer cleaning &amp; repairs of all types of blinds</li>
