@@ -24,7 +24,7 @@ Template Name: Home Page
 			<img src="/assets/img/hero/curtains.jpg" alt="img04"/>
 			<div class="heromsg">
 				<h1>We provide curtain cleaning services</h1> <br />
-				<h1>to bring your cutains back to life.</h1>
+				<h1>to bring your curtains back to life.</h1>
 			</div>
 		</div>
 		<div>
